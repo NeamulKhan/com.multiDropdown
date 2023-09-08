@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify user can select dropdown options",
+        "description": "",
+        "id": "this-feature-is-for-multiple-dropdown-functionality;verify-user-can-select-dropdown-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13014283210,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "MultipleDropdown.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32020,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select option from skills, country and date of birth",
+            "match": {
+              "location": "MultipleDropdown.i_select_option_from_skills_country_and_date_of_birth()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22168,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify multiple dropdown successfully worked",
+            "match": {
+              "location": "MultipleDropdown.verify_multiple_dropdown_successfully_worked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@MultiDropdown"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for multiple dropdown functionality",
+    "description": "",
+    "id": "this-feature-is-for-multiple-dropdown-functionality",
+    "keyword": "Feature",
+    "uri": "MultipleDropdown.feature"
+  }
+]
